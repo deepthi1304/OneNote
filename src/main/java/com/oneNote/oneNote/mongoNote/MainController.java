@@ -2,11 +2,17 @@ package com.oneNote.oneNote.mongoNote;
 
 import java.util.NoSuchElementException;
 
+<<<<<<< HEAD
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+=======
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+>>>>>>> d62d0a951fc83b99fa516da86a62626539694ab8
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,8 +23,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+<<<<<<< HEAD
 
 @CrossOrigin
+=======
+>>>>>>> d62d0a951fc83b99fa516da86a62626539694ab8
 @RestController 
 @RequestMapping(path="/note") 
 public class MainController {
@@ -26,7 +35,11 @@ public class MainController {
 	private NoteService service;
 	//private SequenceGeneratorService sequenceGenerator;
 	
+<<<<<<< HEAD
 	@PostMapping(path="/create") 
+=======
+	@PostMapping(path="/create")
+>>>>>>> d62d0a951fc83b99fa516da86a62626539694ab8
 	public @ResponseBody String createNewNote(@RequestBody NoteData note) {
 		//sequenceGenerator.getNextSequence(NoteData.SEQUENCE_NAME);
 		//int seq = 0;
